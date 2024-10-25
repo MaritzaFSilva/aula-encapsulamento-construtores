@@ -7,7 +7,6 @@ public class Conta {
     private String titular;
     private double saldo;
 
-
     public Conta(String agencia, String numero, String cpf, String titular, double saldo) {
         this.agencia = agencia;
         this.numero = numero;
@@ -23,7 +22,7 @@ public class Conta {
         this.titular = titular;
         this.saldo = saldo;
     }
-    
+
     public String getAgencia() {
         return agencia;
     }
@@ -47,8 +46,6 @@ public class Conta {
     public void setCpf(String cpf) {
         this.cpf = cpf;
     }
-
-    
 
     public Conta(String agencia, String numero) {
         // this.agencia = agencia;
@@ -90,8 +87,7 @@ public class Conta {
     public String toString() {
         String str;
 
-        str = "6" +
-                "\n\tAgencia:" + agencia +
+        str = "\n\tAgencia:" + agencia +
                 "\n\tNumero:" + numero +
                 "\n\tTitular:" + titular +
                 "\n\tCpf:" + cpf +
